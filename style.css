@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Mouse+Memoirs&display=swap');
+ 
+ 
+body {
+    background: url("background.jpg");
+    background-size: cover;
+}
+ 
+.heading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #d76b34;
+ 
+}
+ 
+.title {
+    color: #acacac;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Marcellus', sans-serif;
+}
+ 
+.note {
+    font-size: 25px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+ 
+.button_song {
+    font-size: 20px;
+    background-color: rgb(94, 194, 224);
+    border: 0px;
+    color:white;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+
+canvas {
+    border: 2px groove rgb(97, 97, 97);
+    box-shadow: 3px, 3px, 3px, darkgray;
+    margin-left: 300px;
+    margin-right: 300px;
+}
